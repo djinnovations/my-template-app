@@ -1,0 +1,16 @@
+
+query UsersList($limit:Int!, $launchLimit: Int!) {
+    users(limit: $limit, distinct_on: name) {
+        id
+        name
+        rocket
+        timestamp
+        twitter
+    }
+    launches (limit: $launchLimit){
+        links {
+            flickr_images
+            article_link
+        }
+    }
+}

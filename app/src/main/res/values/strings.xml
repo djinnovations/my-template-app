@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Template App</string>
+
+    <string name="generic_error">Something went wrong</string>
+    <string name="title">Article</string>
+    <string name="article_details">Articles Desc</string>
+</resources>
